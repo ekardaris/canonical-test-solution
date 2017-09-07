@@ -18,12 +18,10 @@ def exercise1(person, teams):
     return results
 
 from data1 import *
-
 print(str(exercise1(alice, people)))
 
 from data2 import *
 print(str(exercise1(alice, people)))
-
 
 def getPeople(team, depth):
     results = []
